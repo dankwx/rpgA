@@ -1,11 +1,9 @@
 def ataque():
     vidaM = 50
     vidaM = vidaM - ataqueJ
-    print("vida restante: ", vidaM)
     while vidaM >= 1:
         vidaM = vidaM - ataqueJ
         print("vida restante: ", vidaM)
     if vidaM <= 0:
         print("Fim de combate.")
-
 ataque()
