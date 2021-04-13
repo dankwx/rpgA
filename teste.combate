@@ -1,6 +1,6 @@
-vidaJ = 100
-ataqueJ = 5
-
-VidaM = 50
-
-
+print("Ataque efetuado.")
+vidaM = vidaM - ataqueJ
+print("vida restante: ", vidaM)
+print("Ataque efetuado.")
+vidaM = vidaM - ataqueJ
+print("vida restante: ", vidaM)
