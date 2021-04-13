@@ -1,7 +1,7 @@
 def combate():
-    vidaM = 50
-    ataqueM = 1
-    vidaJ = 100
+    global vidaM
+    global ataqueM
+    global vidaJ
     vidaM = vidaM - ataqueJ
     while vidaM >= 1:
         vidaM = vidaM - ataqueJ
