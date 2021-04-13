@@ -1,9 +1,13 @@
-def ataque():
+def combate():
     vidaM = 50
+    ataqueM = 1
+    vidaJ = 100
     vidaM = vidaM - ataqueJ
     while vidaM >= 1:
         vidaM = vidaM - ataqueJ
-        print("vida restante: ", vidaM)
+        print("O monstro ficou com: ", vidaM, "de vida")
+        vidaJ = vidaJ - ataqueM
+        print("Você ficou com: ", vidaJ, " de vida")
     if vidaM <= 0:
         print("Fim de combate.")
-ataque()
+combate()
